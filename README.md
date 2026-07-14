@@ -6,6 +6,8 @@ This project is a production-style ETL pipeline developed for the **Codebasics D
 
 The pipeline extracts customer orders from a CSV file, transforms and validates the data, applies configurable discounts, and loads the processed orders to a simulated Orders API with retry handling and logging.
 
+Assignment walkthrough link : https://drive.google.com/drive/folders/18Y1uYlN1mrlzrxd6-vVsJuqG1Yl2RrTb?usp=sharing
+
 ---
 
 ## Technologies Used
@@ -143,7 +145,7 @@ Main entry point that orchestrates the complete ETL workflow.
 2. Install the required packages:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.txt if any dependencies need to be installed
 ```
 
 3. Set the database password (optional):
